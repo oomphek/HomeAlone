@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HomeAlone</title>
+	<style>
+		body {
+			background-color: gray;
+			margin: 0 %;
+			font-family: sans-serif;
+			font-style: italic;
+		}
+		ul li {
+			list-style: none;
+		}
+		 a {
+			text-decoration: none;
+			list-style: none;
+			color: white;
+		}
+		ul {
+			
+		}
+		#top .topp .toppp {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+			background-color: black;
+			height: 3em;
+			margin-top: -0.5em;
+		
+
+
+		}
+		
+		.topppp .top_tel {
+			display: none;
+			position: absolute;
+		
+			top: 20px;
+			background-color: orange;
+			color: black;
+			border: 2px solid gray;
+		}
+		.toppp .menu:hover .top_tel {
+			display: block;
+			position: relative;
+			
+		
+		}
+
+		.topp {
+			font-style: normal;
+			font-family: monospace;
+			font-size: 1.5em
+		}
+		#top .topp .toppp .menu a:hover  {
+			color: red;
+
+		}
+		#top .topp .toppp .menu a:hover {
+			transition: color 2s easy;
+		}
+		
+
+	
+	
+.flag {
+	width: 0;
+	height: 0;
+	border-top: 5px solid white;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	position: relative;
+	top: 1.5em;
+}
+
+#middle {
+	background-color: white;
+	margin-top: -19px;
+}
+.gj {
+    margin-top: -19px;
+	text-align: center;
+	text-shadow: 0, 2 , 3;
+	font-size: 4em;
+	letter-spacing: 25px;
+	font-weight: bold;
+	background: linear-gradient(40deg, black 25%,black 10%, white 30%, black 70%);
+}
+.ooo {
+	text-shadow: 4px 2px 2px black;
+}
+.www {
+	text-shadow: 3px 3px black;
+}
+.eee {
+	text-shadow: 3px 3px 3px white;
+}
+#middle {
+	margin-bottom: 100px;
+}
+#main {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 5%;
+	flex-wrap: wrap;
+
+}
+#price {
+	line-height: 50px;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 4%;
+	
+	
+	}
+.shkaf {
+	min-height: 250px;
+	min-width: 250px;
+	width: 300px;
+	height: 300px;
+}
+.shkaf:hover {
+	transform: scale(1.1) rotate(1deg) skewX(-10deg);
+	box-shadow: 6px 6px 6px whitesmoke;
+
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+}
+.priceT {
+	margin-right: 1%;
+	font-size: 1.5em;
+	font-weight: 500;
+	
+}
+.price {
+	font-size: 1.5em;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 1em;
+
+}
+#req {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 5%;
+	
+
+}
+.req {
+	text-decoration: line-through;
+	color: red;
+	font-size: 1.5em;
+	text-align: center;
+}
+#ret {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 5%;
+	font-size: 1.5em;
+}
+#pic {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 5%;
+}
+.pic {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 5%;
+	
+}
+.pic button {
+background-color: #87C853;
+font-size: 1.3em;
+font-weight: 600;
+transition: background-color 0.5s ease-in-out;
+
+
+}
+
+.pic button:hover {
+background-color: #3DC650;
+}
+
+.pric {
+	margin-top: 3em;
+	display: flex;
+	justify-content: space-around;
+	margin: 3em 5% 0 5%;
+
+}
+.rett {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 5%;
+	font-size: 1.5em;
+}
+#mebel {
+	margin-top: 3em;
+	background-color: black;
+}
+.divan {
+	color: white;
+}
+#mebel .price {
+	color: white;
+}
+#mebel .rett {
+	color: white;
+}
+
+#mebell {
+	margin-top: 3em;
+}
+
+.top_dos {
+	display: none;
+	position: absolute;
+}
+.toppp .menu:hover .top_dos {
+	display: block;
+	position: relative;
+	left: 0;
+	top: 10px;
+
+	
+
+}
+.menu:hover {
+position: relative;
+top: 50px;
+}
+
+
+	</style>
+
+
+
+
+</head>
+
+<body>
+<section id="top">
+	<div class="topp">
+		<ul class="toppp">
+			<li class="menu"><a href="">Доставка<span class="flag"></span></a><ul class="topppp">
+				<li><a href="dostavkaa.html" class="top_dos">Г.Харьков</a></li>
+				<li><a href="dostavkaa.html" class="top_dos">Г.Киев</a></li>
+				<li><a href="dostavkaa.html" class="top_dos">Г.Одесса</a></li>
+				<li><a href="dostavkaa.html" class="top_dos">Г.Днепр</a></li>
+			</ul></li>
+			<li class="menu"><a href="">Контакты<span class="flag"></span></a><ul class="topppp"><li>
+				<a href="" class="top_tel">099-874-49-99</a>
+			</li>
+		<li>
+				<a href="" class="top_tel">095-22-58-386</a>
+			</li>
+				<li>
+					<a href="" class="top_tel">066-800-32-42</a>
+				</li>
+			</ul></li>
+			<li class="menu"><a href="">Наши Работы<span class="flag"></span></a></li>
+			<li class="menu"><a class="menuu" href="">Меню<span class="flag"></span></a>
+			</ul>
+		
+		
+	</div>
+</section>
+<section id="middle">
+	<h1 class="gj"><span class="www">G</span><span class="ooo">oo</span><span class="eee">D</span> <span class="eee">J</span><span class="ooo">o</span><span class="www">B</span></h1>
+</section>
+<h2>Шкафы-купе</h2>
+<section id="main">
+	<div><img src="imgA/6d-2-500x500.jpg" alt="shkaf" class="shkaf"></div>
+	<div><img src="imgA/es17_1-500x500.jpg" alt="shkaf" class="shkaf"></div>
+	<div><img src="imgA/images (1).jpg" alt="shkaf" class="shkaf"></div>
+	<div><img src="imgA/images.jpg" alt="shkaf" class="shkaf"></div>
+</section>
+<section id="price"><div class="price">Белый дракон</div>
+	<div class="price">Плитка</div>
+	<div class="price">Золотой дракон</div>
+	<div class="priceT">Элитный</div></section>
+
+	<section id="req">
+		<div class="req">45 000₴</div>
+		<div class="req">32 000₴</div>
+		<div class="req">27 000₴</div>
+		<div class="req">30 000₴</div>
+	</section>
+	<section id="ret">
+		<div class="ret">29 999₴</div>
+		<div class="ret">24 999₴</div>
+		<div class="ret">19 999₴</div>
+		<div class="ret">22 999₴</div>
+	</section>
+	<section id="pic">
+		<div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+		<div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+		<div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+		<div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+	</section>
+	<section id="two">
+		<div class="pric">
+			<div><img src="imgA/images (4).jpg" alt="shkaf" class="shkaf">
+				<div class="price">
+					Дерево
+				</div>
+				<div class="req">
+					26 000₴
+				</div>
+				<div class="rett">
+					19 999₴
+				</div>
+				<div class="pic">
+					<button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button>
+				</div>
+			</div>
+			<div><img src="imgA/images (2).jpg" alt="shkaf" class="shkaf">
+				<div class="price">
+					Мозайка
+				</div>
+				<div class="req">
+					30 000₴
+				</div>
+				<div class="rett">
+					24 999₴
+				</div>
+				<div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+			</div>
+			<div><img src="imgA/image9.jpg" alt="shkaf" class="shkaf">
+				<div class="price">
+					Слиток
+				</div>
+				<div class="req">
+					35 000₴
+				</div>
+				<div class="rett">
+					29 999₴
+				</div>
+				<div class="pic">
+					<button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button>
+				</div>
+			</div>
+			<div><img src="imgA/images (3).jpg" alt="shkaf" class="shkaf">
+				<div class="price">
+					Мрамор
+				</div>
+				<div class="req">
+					25 000₴
+				</div>
+				<div class="rett">
+					18 999₴
+				</div>
+				<div class="pic">
+					<button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="mebel">
+		<h2 class="divan">Диваны</h2>
+		<div>
+			<div class="pric">
+				<div><img src="imgA/images (8).jpg" alt="shkaf" class="shkaf">
+                <div class="price">
+                Красный Дракон	
+                </div>
+                <div class="req">
+                	24 000₴
+                </div>
+                <div class="rett">
+                	19 999₴
+                </div>
+                <div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+				</div>
+				<div><img src="imgA/images (6).jpg" alt="shkaf" class="shkaf">
+                <div class="price">
+                	Серый Граф
+                </div>
+                <div class="req">20 000₴
+                </div>
+                <div class="rett">14 999₴</div>
+                <div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+				</div>
+				<div><img src="imgA/images (7).jpg" alt="shkaf" class="shkaf">
+                <div class="price">
+                	Рыжий Принц
+                </div>
+                <div class="req">26 000₴</div>
+                <div class="rett">20 999₴</div>
+                <div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+				</div>
+				<div><img src="imgA/images (5).jpg" alt="shkaf" class="shkaf">
+                <div class="price">
+                	Розовый Фламинго
+                </div>
+                <div class="req">19 000₴</div>
+                <div class="rett">13 999₴</div>
+                <div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+				</div>
+			</div>
+		</div>
+			<div class="pric">
+			<div><img src="imgA/images (9).jpg" alt="shkaf" class="shkaf">
+            <div class="price">Семейный</div>
+            <div class="req">17 000₴</div>
+            <div class="rett">13 999₴</div>
+            <div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+             </div>
+			<div><img src="imgA/images (10).jpg" alt="shkaf" class="shkaf">
+            <div class="price">Люкс</div>
+            <div class="req">30 000₴</div>
+            <div class="rett">26 999₴</div>
+            <div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+				</div>
+			
+			<div><img src="imgA/images (11).jpg" alt="shkaf" class="shkaf">
+            <div class="price">Белый Фазан</div>
+            <div class="req">22 000₴</div>
+            <div class="rett">17 999₴</div>
+            <div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+				</div>
+		
+			<div><img src="imgA/gbdvb.r575x340.jpg" alt="shkaf" class="shkaf">
+            <div class="price">Корпоративный</div>
+            <div class="req">28 000₴</div>
+            <div class="rett">22 999₴</div>
+            <div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
+		
+		</div>
+	</div>
+		</section>
+</body>
+</html>
