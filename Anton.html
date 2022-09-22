@@ -10,7 +10,33 @@
 			margin: 0 %;
 			font-family: sans-serif;
 			font-style: italic;
+
 		}
+		@media screen and (max-width: 900px) {
+			body {
+				display: flex;
+				flex-direction: column;
+			}
+			#top {
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+				width: 50%;
+			}
+			#mebel div {
+				display: flex;
+				flex: 1 1 50%;
+				flex-direction: column;
+				width:;
+				margin: 0 auto;
+			}
+		}
+    
+
+			
+
+		
+
 		ul li {
 			list-style: none;
 		}
@@ -23,10 +49,13 @@
 			
 		}
 		#top .topp .toppp {
+
 display: flex;
+flex: 1 1 50%;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
+flex-wrap: wrap;
 			background-color: black;
 			height: 3em;
 			margin-top: -0.5em;
@@ -218,6 +247,7 @@ background-color: #3DC650;
 
 #mebell {
 	margin-top: 3em;
+	.
 }
 
 .top_dos {
@@ -228,14 +258,51 @@ background-color: #3DC650;
 	display: block;
 	position: relative;
 	left: 0;
-	top: 10px;
 
 	
 
 }
 .menu:hover {
 position: relative;
-top: 50px;
+top: 20px;
+}
+.top_menu {
+	display: none;
+	position: absolute;
+}
+.menu:hover .top_menu {
+	display: block;
+	position: relative;
+}
+.top_work {
+	display: none;
+	position: absolute;
+}
+.menu:hover .top_work {
+	display: block;
+	position: relative;
+}
+.but {
+	color: white;
+
+}
+#foot div {
+	background-color: black;
+
+}
+.home {
+	margin: 3% 40% 3% 45%;
+
+}
+.home {
+	transition: background-color 3s easy;
+	width: 150px;
+	border-radius: 10em;
+
+	}
+.home:hover {
+	background-color: red;
+	position: relative;
 }
 
 
@@ -256,7 +323,8 @@ top: 50px;
 				<li><a href="dostavkaa.html" class="top_dos">Г.Одесса</a></li>
 				<li><a href="dostavkaa.html" class="top_dos">Г.Днепр</a></li>
 			</ul></li>
-			<li class="menu"><a href="">Контакты<span class="flag"></span></a><ul class="topppp"><li>
+			<li class="menu"><a href="">Контакты<span class="flag"></span></a><ul class="topppp">
+				<li>
 				<a href="" class="top_tel">099-874-49-99</a>
 			</li>
 		<li>
@@ -266,8 +334,22 @@ top: 50px;
 					<a href="" class="top_tel">066-800-32-42</a>
 				</li>
 			</ul></li>
-			<li class="menu"><a href="">Наши Работы<span class="flag"></span></a></li>
+			<li class="menu"><a href="">Наши Работы<span class="flag"></span></a>
+				<ul class="topppp">
+					<li><a href="" class="top_work">Варшава</a></li>
+					<li><a href="" class="top_work">Рим</a></li>
+					<li><a href="" class="top_work">Стокгольм</a></li>
+					<li><a href="" class="top_work">Токио</a></li>
+				</ul></li>
 			<li class="menu"><a class="menuu" href="">Меню<span class="flag"></span></a>
+				<ul class="topppp">
+					<li><a href="" class="top_menu">Шкафы-купе</a></li>
+					<li><a href="" class="top_menu">Диваны</a></li>
+					<li><a href="" class="top_menu">Столы</a></li>
+					<li><a href="" class="top_menu">Тумбы и Комоды</a></li>
+					<li><a href="" class="top_menu">Кухня</a></li>
+					<li><a href="" class="top_menu">Офис</a></li>
+				</ul></li>
 			</ul>
 		
 		
@@ -434,9 +516,16 @@ top: 50px;
             <div class="req">28 000₴</div>
             <div class="rett">22 999₴</div>
             <div class="pic"><button><img src="imgA/Без_названия-removebg-preview.png" alt="kor" width="50" height="50">В Корзину</button></div>
-		
 		</div>
 	</div>
 		</section>
+		<section id="foot">
+			<div>
+				<div class="pcc">
+					<a href="Anton.html"><img src="imgA/png-transparent-bed-business-orthopedic-mattress-logo-bed-purple-mattress-furniture-removebg-preview.png" alt="home" class="home" height="" width=""></a>
+				</div>
+			</div>
+		</section>
+
 </body>
 </html>

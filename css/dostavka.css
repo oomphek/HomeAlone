@@ -1,0 +1,50 @@
+@keyframes background-colors {
+			0% {background-color: black;}
+			
+			
+			
+			
+			100% {background-color: rebeccapurple;}
+		}
+		body {
+			text-align: center;
+			margin: 5%;
+			color: #e5f461;
+			animation-name: background-colors;
+			animation-duration: 15s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+			animation-direction: alternate-reverse;
+		}
+		input {
+			background-color: #f9be5e;
+			display: flex;
+		}
+		textarea {
+			display: flex;
+			background-color: #f9be5e;
+		}
+#form {
+	display: flex;
+	flex-direction: column;
+	flex-flow: 20px;
+	justify-content: center;
+	align-items: center;
+}
+div { margin-top: 2em;
+	padding-right: 2em;
+
+}
+h1 { font-size: 2em;
+	font-family: monospace;
+	color: #e5f461;
+}
+select {
+	background-color: #f9be5e;
+}
+.button {
+	margin-right: 2em;
+	background-color: rgba(35, 450, 2, 3.0);
+	background: linear-gradient(10deg, green 10%,greenyellow 40%, #e5f461 50%);
+
+}
